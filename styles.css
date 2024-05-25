@@ -1,0 +1,30 @@
+/* Basic reset for margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.button-div {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 20px 40px; /* Increased padding for a bigger button */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  font-size: 1.5rem; /* Increase font size */
+}
+
+/* Hover effect */
+.button-div:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
+}
